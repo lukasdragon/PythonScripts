@@ -18,12 +18,17 @@ COTHER = '\033[33m';
 
 #Floats
 #Mcdonalds
+
+#daily pay
 mcd = 0.5;
+#total pay
 paymcd = 0.0;
 
 #Janitor
+#Daily pay
 #We need to get janitor pay as pennies because im lazy with the display code
 jad = 10000 * 100.0;
+#total pay
 payjan = 0.0;
 
 #length in days

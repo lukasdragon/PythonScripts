@@ -14,7 +14,6 @@ while True:
     chosenNumbers = [];
     UserAnswer = -1;
 
-    #
     answer = random.choice(range(1,101));
 
     print "=======[",Wins,"]======="
@@ -37,7 +36,7 @@ while True:
     #Guess Count Logic
     Guesses = len(chosenNumbers) + 1;
     if Wins > 0:
-        AverageGuesses = AverageGuesses + Guesses / 2;
+        AverageGuesses = (AverageGuesses + Guesses) / 2;
     else:
         AverageGuesses = Guesses;
 

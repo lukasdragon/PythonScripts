@@ -27,9 +27,11 @@ days = 1;
 
 
 while infected < Cpopulation:
-    days = days + 1;
+    days += 1;
     infected = infected + infectionspread;
     infectionspread = infectionspread * CinfectionMultiplier;
+    
+
     
 print CWARNING, "==========[","Results","]=========="
 print COKBLUE,"Entire Population Infected within:", days,"days..."
